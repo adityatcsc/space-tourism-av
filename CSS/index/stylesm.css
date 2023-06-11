@@ -1,0 +1,96 @@
+body{
+    background-image: url('/images/home/background-home-mobile.jpg');
+    background-size: cover;
+
+}
+
+.main{
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+h1{
+    font-size: 80px;
+}
+
+h5{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.main-right{
+    display: flex;
+    justify-content: center;
+    padding: 3.0px 30px;
+    margin-top: 0px;
+    margin-top: 50px;
+}
+
+.main-left{
+    margin-bottom: 0px;
+    padding: 0px  30px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+p{
+   font-size: 12px;
+}
+
+.info-box{
+    top: 150px;
+}
+
+
+.mid{
+    display: none;
+}
+
+.header{
+    padding-top: 0px;
+}
+
+.left{
+    left: 25px;
+    top: 20px;
+}
+.left img{
+    height: 40px;
+    width: 40px;
+}
+
+.circle{
+    margin-top: 40px;
+}
+
+/* navbar */
+
+/* .navbar{
+    margin-left: 150px;
+    left: 0px;
+    padding-left: 0px;
+    padding-bottom: 6000px;
+    z-index: 100;
+    padding-top: 100px;
+}
+
+.navbar li{
+    width: 120px;
+    padding: 10px 0px 10px 0px;
+
+}
+
+.nav-h5{
+    padding-right: 5px;
+}
+
+.navbar ul{
+    margin-top: 50px;
+
+} */
+
+

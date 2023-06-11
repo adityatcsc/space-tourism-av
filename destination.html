@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&family=Merriweather&family=Montserrat:wght@500&family=Sacramento&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/destination/styledestination.css">
+
+    <title>DESTINATOIN</title>
+  </head>
+  <body>
+
+   <div class="dest-sec">
+
+    <header class="header">
+        <!-- left for logo -->
+        <div class="left">
+        <img src="images/shared/logo.svg">
+        </div>
+        
+        <!-- mid for design -->
+        <div class="mid">
+           
+        </div>
+  
+  
+        <!-- right for navbar -->
+        <div class="navbar" id="nav">
+            <ul>
+              <li><a class="" href="index.html"><h5 class="nav-h5">00</h5> HOME</a></li>
+              <li><a class="active-a" href="destination.html"><h5 class="nav-h5">01</h5> DESTINATOIN</a></li>
+              <li><a class="" href="crew.html"><h5 class="nav-h5">02</h5> CREW</a></li>
+              <li><a class="" href="technology.html"><h5 class="nav-h5">03</h5> TECHNOLOGY</a></li>
+            </ul>
+  
+         </div>
+        </header>
+        <div class="info-heading">
+       <h5 class="info-no">01 </h5><h5 class="info-h5">PICK YOUR DESTINATOIN</h5>
+       </div>
+
+       <div class="info-main">
+          <div class="dest-right">
+            <img class="img-tab active-img" id="moon-img" src="images/destination/image-moon.png" alt="moon">
+            <img class="img-tab " id="mars-img" src="images/destination/image-mars.png" alt="mars">
+            <img class="img-tab " id="europa-img" src="images/destination/image-europa.png" alt="europa">
+            <img class="img-tab " id="titan-img" src="images/destination/image-titan.png" alt="titan">
+
+          </div>
+          <div class="dest-left">
+            <div class="dest-nav">
+              <ul>
+                <li class="tab-link active-link" onclick="opentab('moon')">MOON</li>
+                <li class="tab-link" onclick="opentab('mars')">MARS</li>
+                <li class="tab-link" onclick="opentab('europa')">EUROPA</li>
+                <li class="tab-link" onclick="opentab('titan')">TITAN</li>
+              </ul>        
+            </div>
+            <div class="tab-info active-tab" id="moon">
+
+              <h2>MOON</h2>
+
+              <p class="dest-p">See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+              regain perspective and come back refreshed. While you’re there, take in some history 
+              by visiting the Luna 2 and Apollo 11 landing sites.</p>
+
+              <hr class="dest-hr">
+
+              <div class="dest-right-down">
+                <div class="dest-right-down-left">
+                   <P class="dest-right-down-p">Avg. distance</P>
+                   <h5>384,400 KM</h5>
+                </div>
+                <div class="dest-right-down-right">            
+                   <p class="dest-right-down-p">Est. travel time</p>
+                   <h5>3 DAYS</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-info" id="mars">
+
+              <h2>MARS</h2>
+
+              <p class="dest-p">Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+                the tallest planetary mountain in our solar system. It’s two and a half times 
+                the size of Everest!</p>
+
+              <hr class="dest-hr">
+
+              <div class="dest-right-down">
+                <div class="dest-right-down-left">
+                   <P class="dest-right-down-p">Avg. distance</P>
+                   <h5>225 MIL. KM</h5>
+                </div>
+                <div class="dest-right-down-right">            
+                   <p class="dest-right-down-p">Est. travel time</p>
+                   <h5>9 MONTHS</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-info" id="europa">
+
+              <h2>EUROPA</h2>
+
+              <p class="dest-p">The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
+                winter lover’s dream. With an icy surface, it’s perfect for a bit of 
+                ice skating, curling, hockey, or simple relaxation in your snug 
+                wintery cabin.</p>
+
+              <hr class="dest-hr">
+
+              <div class="dest-right-down">
+                <div class="dest-right-down-left">
+                   <P class="dest-right-down-p">Avg. distance</P>
+                   <h5>628 MIL. KM</h5>
+                </div>
+                <div class="dest-right-down-right">            
+                   <p class="dest-right-down-p">Est. travel time</p>
+                   <h5>3 YEARS</h5>
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-info" id="titan">
+
+              <h2>TITAN</h2>
+
+              <p class="dest-p">The only moon known to have a dense atmosphere other than Earth, Titan 
+                is a home away from home (just a few hundred degrees colder!). As a 
+                bonus, you get striking views of the Rings of Saturn.</p>
+
+              <hr class="dest-hr">
+
+              <div class="dest-right-down">
+                <div class="dest-right-down-left">
+                   <P class="dest-right-down-p">Avg. distance</P>
+                   <h5>1.6 BIL. KM</h5>
+                </div>
+                <div class="dest-right-down-right">            
+                   <p class="dest-right-down-p">Est. travel time</p>
+                   <h5>7 YEARS</h5>
+                </div>
+              </div>
+            </div>
+
+          </div>
+       </div>
+    </div>
+
+    
+    <script>
+       var tablinks=document.getElementsByClassName("tab-link");
+       var tabinfos=document.getElementsByClassName("tab-info");
+       var imgtabs=document.getElementsByClassName("img-tab");
+
+       function opentab(tabname){
+        for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+        }
+
+        for(tabinfo of tabinfos){
+          tabinfo.classList.remove("active-tab");
+        }
+
+        for(imgtab of imgtabs){
+          imgtab.classList.remove("active-img");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        document.getElementById(tabname+"-img").classList.add("active-img");
+       }
+      
+
+    </script>
+  </body>
+</html>

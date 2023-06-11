@@ -1,0 +1,287 @@
+body{
+    background-image: url('/images/destination/background-destination-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    font-family: 'Bellefair', serif;
+    font-size: 145px;
+    color: #ffffff;
+ }
+ 
+ h2{
+    font-family: 'Bellefair', serif;
+    font-size: 80px;
+    color: #ffffff;
+ }
+ 
+ h3{
+    font-family: 'Bellefair', serif;
+    font-size: 56px;
+    color: #ffffff;
+ }
+ 
+ h4{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    color: #ffffff;
+ }
+ 
+ h5{
+    font-family: 'Barlow Condensed', serif;
+    font-size: 28px;
+    letter-spacing: 4.74px;
+   color: #D0D6F9;
+ }
+ p{
+    font-family: 'Barlow Condensed', serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #D0D6F9;
+ }
+
+
+ 
+ /* destination section */
+
+.dest-sec{
+    position: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    text-align: left;
+}
+
+
+
+
+/* header */
+.header{
+    display: flex;
+    padding-top: 30px;
+ }
+ 
+ 
+ 
+ .left{
+    color: #D0D6F9;
+    display: inline-block;
+    position: absolute;
+    left: 45px;
+    top: 41px;
+  
+ }
+ 
+ .left img{
+    height: 60px;
+    width: 60px;
+ }
+ 
+ .mid{
+ 
+    display:inline-block;
+    position: absolute;
+    background-color:  rgba(68, 64, 64, 0.349);
+    height:1.7px;
+    width: 32%;
+    margin-left: 220px;
+    margin-top: 35px;
+ 
+ }
+ 
+
+
+
+ 
+ /* right - navbar */
+ 
+ .navbar{
+    position: absolute;
+    right: 0px;
+    font-size: small;
+    padding-top: 28px;
+    padding-left: 130px;
+    background-color:  rgba(75, 70, 70, 0.301);
+    backdrop-filter: blur(8px);
+ 
+ }
+ 
+ .nav-h5{
+    color: #ffffff;
+    display: inline-block;
+    font-size: 15px;
+ }
+ 
+ .navbar li{
+    font-family: 'Barlow Condensed', serif ;
+    letter-spacing: 2px;
+    color: #ffffff;
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+ 
+ }
+ 
+ .navbar a{
+    position: relative;
+    font-family:'Barlow Condensed', serif ;
+    letter-spacing: 2.7px;
+    color: #c7cce7;
+    padding: 0px;
+    text-decoration: none;
+ 
+ }
+ 
+ 
+ .navbar a::after{
+    cursor: pointer;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: rgba(255, 251, 251, 0.37);
+    position: absolute;
+    left: 0px;
+    bottom: -32px;
+    opacity: 0;
+    transition: all 0.2s;
+    pointer-events: none;
+ }
+ 
+ .navbar a:hover::after{
+    opacity: 1;
+ 
+ }
+ 
+ .navbar a.active-a::after{
+   opacity: 1;
+   background: #ffffff;
+}
+
+
+ 
+
+
+
+
+ /* information box */
+
+
+.info-main{
+   display: flex;
+
+}
+
+.info-heading{
+   font-size: 50px;
+   margin-top: 130px;
+   margin-left: 200px;
+   color: #515670d8;
+   display: flex;
+
+ }
+ .info-no{
+
+   color: #515670fa;
+ }
+
+ .info-h5{
+   padding-left: 15px;
+   color: white;
+ }
+
+
+/* dest-right part */
+ 
+.dest-right{
+   margin: 60px 10% 60px 20%;
+}
+
+.img-tab{
+   display: none;
+   height: 300px;
+   width: 300px;
+}
+
+.active-img{
+   display: block;
+}
+
+.dest-p{
+   color: #8c97c7fa;
+   padding-right: 30%;
+}
+
+.dest-hr{
+   margin: 20px 0px;
+   height: 2px;
+   color: #8c97c7fa;
+   width:  75%;
+}
+
+.dest-right-down{
+   display: flex;
+}
+
+.dest-right-down-p{
+   color: #8c97c7fa;
+   padding-right: 0px;
+}
+
+.dest-right-down-right{
+   padding-left: 10%;
+}
+
+.tab-info{
+   display: none;
+}
+
+.active-tab{
+   display: block;
+}
+
+ /* dest-left part */
+
+ .dest-nav li{
+   position: relative;
+   cursor: pointer;
+   font-family: 'Barlow Condensed', serif ;
+   letter-spacing: 2px;
+   color: #a0ace2fa;
+   display: inline-block;
+   padding-left: 0px;
+   padding-right: 25px;
+ }
+
+ .dest-nav ul{
+   padding-left: 0px;
+ }
+
+
+ .tab-link::after{
+   cursor: pointer;
+   content: "";
+   height: 3px;
+   width: 65%;
+   background: rgba(255, 251, 251, 0.37);
+   position: absolute;
+   left: 0px;
+   bottom: -10px;
+   opacity: 0;
+   transition: all 0.2s;
+   pointer-events: none;
+}
+
+.tab-link:hover::after{
+   opacity: 1;
+
+}
+
+.tab-link.active-link::after{
+   opacity: 1;
+   background: #ffffff;
+}
